@@ -10,7 +10,7 @@ module.exports = {
 	mode: 'development',
 	devtool: 'eval',
 	output: {
-		path: path.resolve(__dirname, 'docs'),
+		path: path.resolve(__dirname, 'build'),
 		filename: '[name].bundle.js',
 		clean: true,
 	},
